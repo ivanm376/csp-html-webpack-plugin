@@ -33,7 +33,7 @@ module.exports = {
   // rest of webpack config
 
   plugins: [
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin(),
     new CspHtmlWebpackPlugin({
       // config here, see below
     })
